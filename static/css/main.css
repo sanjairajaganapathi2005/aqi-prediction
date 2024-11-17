@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlG1W4jj8OcSqycqV9xLNjUalXIDvZ6qdn4mKhvsM4XQxSm31Laaoc7yT7jbeHMv-uMSY&usqp=CAU");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Title */
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque background to ensure readability */
+    text-align: center;
+    margin: 0;
+    padding: 10px 0; /* Padding for spacing within the header */
+    color: #4f5651;
+    font-size: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Shadow for subtle emphasis */
+    z-index: 1000; /* Ensures the header stays above other elements */
+}
+
+/* Form container */
+form {
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom:30px;
+    padding: 20px 200px;
+    max-width: 700px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bolder;
+    color: #eaf6ee;
+}
+
+form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin: 10px 0;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5a5c5a;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #111211;
+}
+
+/* Result display */
+#result {
+    border-radius: 5px;
+    margin-left: 100px;
+    padding: 10px;
+    height: 50px;
+    width: 1075px;
+    background-color: #f3f4f3;
+    font-size: 2rem;
+    box-shadow: 0px 4px 8px rgb(235, 229, 229);
+    display: flex;               /* Use flexbox to keep content on one line */
+    align-items: center;         /* Vertically align text */
+    justify-content: left;     /* Horizontally center text */
+    white-space: nowrap;         /* Prevent text from wrapping to the next line */
+}
+
+
+/* Footer */
+footer {
+    background-color: #2aa1d4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2rem;
+    margin-top: auto;
+}
+
+p{
+    font-size: medium;
+}
